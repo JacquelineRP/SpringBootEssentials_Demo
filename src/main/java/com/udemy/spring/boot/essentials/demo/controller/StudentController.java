@@ -39,7 +39,6 @@ public class StudentController {
         return studentService.getStudentById(studentId);
     }
 
-
     @RequestMapping(
             method = RequestMethod.POST,
             consumes = MediaType.APPLICATION_JSON_VALUE
